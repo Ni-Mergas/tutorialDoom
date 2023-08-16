@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 41, 56);
+}
+
+ .contenedor-principal{
+    width: 50vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 50px ;
+ }
+
+ /* estilos para el div color */
+
+ .color{
+    padding: 20px;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;/* ditribuye en columna el nombre del color con la barra de selección*/
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ label,
+ p{
+    margin: 20px;
+ }
